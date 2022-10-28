@@ -1,0 +1,19 @@
+/*Hermano adyance o cercano*/
+/* h2 + p {
+    color: red;
+} */
+
+/*general sibling o hermano general*/
+/* h2 ~ p {
+    color: red;
+} */
+
+/*child o hijo y descendiente*/
+/* div > p {
+    color:red;
+}  */
+
+/*Descendant o Decencidiente*/
+div p {
+    color:red;
+}

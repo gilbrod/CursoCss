@@ -1,0 +1,35 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+
+} 
+
+/*estilo los li pase de manera horizontal*/
+.main-nav__item {
+display: inline-block;
+}
+
+/*cambiar las fuentes, color de barra etiquetas ancla*/
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*seudo plazas*/
+.main-nav__item a:hover {
+color:tomato;
+}
+
+.main-nav__item a:active {
+    color: red;
+
+}
+
+/*seudo elementos*/
+.main-nav__item a::after {
+content: " | ";
+}

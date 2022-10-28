@@ -1,0 +1,20 @@
+/*SELECTORES*/
+
+/*Elemento o etiqueta*/
+p {
+    color: blueviolet;
+    font-size: 24px;
+    font-style: italic;
+}
+
+/*Class*/
+.parrafo {
+    color: red;
+}
+
+/*ID*/
+
+#texto {
+    color: grey;
+    font-size:  35px;
+}
